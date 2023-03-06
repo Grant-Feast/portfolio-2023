@@ -371,10 +371,11 @@ a:hover, a:focus {
   padding: 80px 10px 0px 10px;
 }
 
+/* Use rgba(255, 255, 255, 0.1) for background color when bar is moving */
 .progress {
   height: 5px;
   width: 100%;
-  background: rgba(255, 255, 255, 0.1);
+  background: #e1a34c;
   overflow: visible;
   position: relative;
   margin: 0 0 35px 0;
